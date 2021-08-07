@@ -117,7 +117,7 @@ class GoogleDriveHelper:
                     content += f'<b> | <a href="https://telegra.ph/{self.path[nxt_page]}">Next</a></b>'
                     nxt_page += 1
             telegra_ph.edit_page(path = self.path[prev_page],
-                                 title = 'Jimmy_Bots',
+                                 title = 'Movie Enthusiast',
                                  html_content=content)
         return
 
