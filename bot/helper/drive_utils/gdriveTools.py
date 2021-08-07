@@ -131,7 +131,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>@ME_Search_bot #JimmyZin<br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>ရုပ်ရှင်ဝါသနာအိုးတို အတွက် ဒေါင်းလုတ်ဆွဲလိုရတဲ့ bot ကိုထည့်ထားပါတယ်။ /list (movie name) ဆိုပြီး ရုပ်ရှင်တွေ ရှာနိုင်ပါတယ်။ တယောက်တည်း bot သုံးချင်တယ် shared drive member ဖြစ်ချင်တယ်ဆိုရင်တော့ တနှစ်လုံးစာမှ (၅၀၀၀)ကျပ်ပါ။ contact to @medrive_admin<br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
