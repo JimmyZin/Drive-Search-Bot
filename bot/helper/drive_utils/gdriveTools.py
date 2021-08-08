@@ -131,7 +131,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>Bot ကိုတယောက်ထဲသုံးချင်တယ်၊ Shared drive member ဖြစ်ချင်တယ်ဆိုရင်တော့ တနှစ်လုံးစာမှ (၅၀၀၀)ကျပ်ပါ(contact to @medrive_admin)။ ထွက်သမျှ Movie တွေ Update လုပ်ပေးပါတယ်။ ရှာမတွေ့ရင်လဲ တောင်းလို့ရပါတယ်။<br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>ယခု Bot အသုံးပြုခြင်းသည်(လုံးဝ)အခမဲ့ဖြစ်ပါသည်။ Movie တွေကို Bot ကနေ Download မဆွဲချင်ဘူး၊ Google Shared Drive ထဲမှာထားပြီး NPlayer နဲ့တိုက်ရိုက်ကြည့်ချင်တယ်ဆိုရင်တော့ Shared Drive Member ဝင်လို့ရပါတယ်။ Lifetime (၅၀၀၀)ကျပ်ပါ (shared drive တည်ရှိနေသ၍)။ Shared Drive (၂ခု)နဲ့ backup ထားပေးမှာပါ(contact to @medrive_admin)။ ထွက်သမျှ Movie တွေ Update လုပ်ပေးပါတယ်။ ရှာမတွေ့ရင်လည်း တောင်းလို့ရပါတယ်။<br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
