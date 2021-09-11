@@ -131,7 +131,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>ယခု Bot အသုံးပြုခြင်းသည်(လုံးဝ)အခမဲ့ဖြစ်ပါသည်။ Movie တွေကို Bot ကနေ Download မဆွဲချင်ဘူး၊ Google Shared Drive ထဲမှာထားပြီး NPlayer နဲ့တိုက်ရိုက်ကြည့်ချင်တယ်ဆိုရင်တော့ Shared Drive Member ဝင်လို့ရပါတယ်။ Lifetime (၅၀၀၀)ကျပ်ပါ (shared drive တည်ရှိနေသ၍)။ Shared Drive (၂ခု)နဲ့ backup ထားပေးမှာပါ(contact to @medrive_admin)။ ထွက်သမျှ Movie တွေ Update လုပ်ပေးပါတယ်။ ရှာမတွေ့ရင်လည်း တောင်းလို့ရပါတယ်။<br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>အခုလောလောဆယ်မှာ Bot ဆက်လက် အသက်ရှင်နိုင်ဖို့အတွက် ကြော်ငြာလေးထည့်ထားပါတယ်။ ကြော်ငြာတွေမမြင်ချင်ဘူးဆိုရင်တော့ Google Drive Member (40TB) ဝင်လို့ရတယ်နော် (Lifetime) ကိုမှ (တသောင်း)ကျပ်ပါ။ ထွက်သမျှရုပ်ရှင်တွေလည်း အမြဲတမ်း Update လုပ်ပေးနေတယ်နော်။ Admin contact- @medrive_admin <br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
