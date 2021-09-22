@@ -131,7 +131,7 @@ class GoogleDriveHelper:
             INDEX += 1          
             if response:
                 if add_title_msg == True:
-                    msg = f'<h3>Search Results for : {fileName}</h3><br>အခုလောလောဆယ်မှာ Bot ဆက်လက် အသက်ရှင်နိုင်ဖို့အတွက် ကြော်ငြာလေးထည့်ထားပါတယ်။ ကြော်ငြာတွေမမြင်ချင်ဘူးဆိုရင်တော့ Google Drive Member (40TB) ဝင်လို့ရတယ်နော် (Lifetime) ကိုမှ (တသောင်း)ကျပ်ပါ။ ထွက်သမျှရုပ်ရှင်တွေလည်း အမြဲတမ်း Update လုပ်ပေးနေတယ်နော်။ Admin contact- @medrive_admin <br><br>'
+                    msg = f'<h3>Search Results for : {fileName}</h3><br>အခုလောလောဆယ်မှာ Bot ဆက်လက် အသက်ရှင်နိုင်ဖို့အတွက် ကြော်ငြာလေးထည့်ထားပါတယ်။ ကြော်ငြာတွေမမြင်ချင်ဘူးဆိုရင်တော့ Google Drive Member (40TB) ဝင်လို့ရတယ်နော် (Lifetime) ကိုမှ (တသောင်း)ကျပ်ပါ။ ထွက်သမျှရုပ်ရှင်တွေလည်း အမြဲတမ်း Update လုပ်ပေးနေတယ်နော်။ Admin telegram contact- @medrive_admin <br><br>'
                     add_title_msg = False
                 msg += f"╾────────────╼<br><b>{DRIVE_NAME[INDEX]}</b><br>╾────────────╼<br>"
                 for file in response:
@@ -172,6 +172,6 @@ class GoogleDriveHelper:
 
         msg = f" Search 🔍 Results For <b>{fileName}</b> 👇 "
         buttons = button_builder.ButtonMaker()   
-        buttons.buildbutton("CLICK HERE", f"http://sh.st/st/153cbfd51cd965e9a8389882b6ca9741/https://telegra.ph/{self.path[0]}")
+        buttons.buildbutton("CLICK HERE", f"http://ouo.io/qs/TullZmxh?s=https://telegra.ph/{self.path[0]}")
 
         return msg, InlineKeyboardMarkup(buttons.build_menu(1))
