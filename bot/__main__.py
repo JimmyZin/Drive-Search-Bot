@@ -7,7 +7,9 @@ from .modules import authorize, list
 
 @run_async
 def start(update, context):
-    LOGGER.info('UID: {} - UN: {} - MSG: {}'.format(update.message.chat.id,update.message.chat.username,update.message.text))
+    LOGGER.info(
+        f'UID: {update.message.chat.id} - UN: {update.message.chat.username} - MSG: {update.message.text}'
+    )
     if update.message.chat.type == "private" :
         sendMessage(f"<b>Hey</b> <code>{update.message.chat.first_name}</code>❤️.<b>\n Welcome to Movie Search Bot 🔎 \n Powerd By Jimmy @ME_Search_bot</b>", context.bot, update)
     else :
